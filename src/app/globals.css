@@ -45,66 +45,68 @@
   /* background-image theme variables */
   --background-image-gradient-primary: var(--gradient-primary);
   --background-image-gradient-glow: var(--gradient-glow);
+  --background-image-gradient-promo: var(--gradient-promo);
 
   /* box-shadow theme variables */
-  --drop-shadow-glow: 2px 2px 10px #00E7F9;
+  --drop-shadow-glow: 2px 2px 10px #00e7f9;
   --shadow-glow: 0 0 8px rgba(255, 255, 255, 0.8);
   --shadow-card: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 :root {
   /* Fametonic Brand Colors */
-    --background: 220 25% 6%;
-    --foreground: 0 0% 100%;
+  --background: 220 25% 6%;
+  --foreground: 0 0% 100%;
 
-    --card: 220 25% 8%;
-    --card-foreground: 0 0% 100%;
+  --card: 220 25% 8%;
+  --card-foreground: 0 0% 100%;
 
-    --popover: 220 25% 8%;
-    --popover-foreground: 0 0% 100%;
+  --popover: 220 25% 8%;
+  --popover-foreground: 0 0% 100%;
 
-    --primary: 323 85% 59%;
-    --primary-foreground: 0 0% 100%;
+  --primary: 323 85% 59%;
+  --primary-foreground: 0 0% 100%;
 
-    --secondary: 190 100% 50%;
-    --secondary-foreground: 220 25% 6%;
+  --secondary: 190 100% 50%;
+  --secondary-foreground: 220 25% 6%;
 
-    --muted: 220 15% 15%;
-    --muted-foreground: 0 0% 65%;
+  --muted: 220 15% 15%;
+  --muted-foreground: 0 0% 65%;
 
-    --accent: 323 85% 59%;
-    --accent-foreground: 0 0% 100%;
+  --accent: 323 85% 59%;
+  --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 100%;
 
-    --border: 220 15% 15%;
-    --input: 220 15% 15%;
-    --ring: 323 85% 59%;
+  --border: 220 15% 15%;
+  --input: 220 15% 15%;
+  --ring: 323 85% 59%;
 
-    --radius: 0.75rem;
+  --radius: 0.75rem;
 
-    /* Custom Fametonic variables */
-    --magenta: 323 85% 59%;
-    --cyan: 190 100% 50%;
-    --gradient-primary: linear-gradient(135deg, hsl(var(--cyan)), hsl(var(--magenta)));
-    --gradient-glow: radial-gradient(circle at 50% 50%, hsl(var(--cyan) / 0.3) 0%, transparent 70%);
-    --shadow-glow: 0 0 60px hsl(var(--cyan) / 0.4);
-    --shadow-card: 0 10px 40px -10px hsl(var(--background) / 0.8);
-    --drop-shadow-glow: 2px 2px 10px #00E7F9;
+  /* Custom Fametonic variables */
+  --magenta: 323 85% 59%;
+  --cyan: 190 100% 50%;
+  --gradient-primary: linear-gradient(135deg, hsl(var(--cyan)), hsl(var(--magenta)));
+  --gradient-glow: radial-gradient(circle at 50% 50%, hsl(var(--cyan) / 0.3) 0%, transparent 70%);
+  --shadow-glow: 0 0 60px hsl(var(--cyan) / 0.4);
+  --shadow-card: 0 10px 40px -10px hsl(var(--background) / 0.8);
+  --drop-shadow-glow: 2px 2px 10px #00e7f9;
+  --gradient-promo: linear-gradient(135deg, #fc004e, #10cbe0);
 
-    --sidebar-background: 220 25% 8%;
-    --sidebar-foreground: 0 0% 100%;
-    --sidebar-primary: 323 85% 59%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 220 15% 15%;
-    --sidebar-accent-foreground: 0 0% 100%;
-    --sidebar-border: 220 15% 15%;
-    --sidebar-ring: 323 85% 59%;
+  --sidebar-background: 220 25% 8%;
+  --sidebar-foreground: 0 0% 100%;
+  --sidebar-primary: 323 85% 59%;
+  --sidebar-primary-foreground: 0 0% 100%;
+  --sidebar-accent: 220 15% 15%;
+  --sidebar-accent-foreground: 0 0% 100%;
+  --sidebar-border: 220 15% 15%;
+  --sidebar-ring: 323 85% 59%;
 }
 
 .dark {
-  --background: oklch(0.141 0.005 285.823);
+  --background: oklch(6.72% 0.00001 271.152);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.21 0.006 285.885);
   --card-foreground: oklch(0.985 0 0);

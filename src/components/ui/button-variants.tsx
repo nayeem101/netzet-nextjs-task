@@ -11,8 +11,8 @@ export const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        cta: "bg-gradient-primary hover:opacity-90 text-foreground font-semibold shadow-glow hover:shadow-none transition-all duration-300",
-        nav: "text-foreground hover:text-cyan transition-colors duration-200",
+        cta: "bg-gradient-primary hover:opacity-90 text-foreground font-semibold drop-shadow-glow hover:shadow-none transition-all duration-300",
+        nav: "text-[#A9A9A9] transition-colors duration-200",
       },
       size: {
         default: "h-10 px-4 py-2",
