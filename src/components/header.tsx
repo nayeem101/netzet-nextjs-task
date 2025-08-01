@@ -4,8 +4,8 @@ import { Menu } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="px-4 pt-6 pb-4 lg:px-8 max-w-7xl mx-auto">
-      <div className="max-w-7xl mx-auto flex items-start justify-between">
+    <header className="px-4 pt-6 pb-4 lg:px-20 max-w-7xl mx-auto">
+      <div className="max-w-7xl mx-auto flex items-center md:items-start justify-between">
         <div className="md:hidden"></div>
         {/* Logo */}
         <div>
@@ -23,9 +23,7 @@ const Header = () => {
         </nav>
 
         {/* Mobile Menu Button */}
-        <Button variant="ghost" size="icon" className="md:hidden">
-          <Menu className="h-6 w-6" />
-        </Button>
+        <Menu size={26} className="md:hidden" />
       </div>
     </header>
   );
